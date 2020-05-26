@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary" name="main-content"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>setting</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fondo">
+  <div class="contentlogin">
+    <ion-card>
+      <br>
+      <div class="imagenlogoa">
+        <img src="./assets/imagenes/logoctualizar.png" alt="">
+      </div>
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input type="text" [(ngModel)]="name" name="name" Disabled="true"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Apellido</ion-label>
+        <ion-input type="text" [(ngModel)]="last_name" name="last_name" Disabled="true"></ion-input>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-label position="floating">Identificacion</ion-label>
+        <ion-input type="text" [(ngModel)]="id" name="id" Disabled="true"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Telefono</ion-label>
+        <ion-input type="text" [(ngModel)]="phone" name="phone"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Correo</ion-label>
+        <ion-input type="text" [(ngModel)]="email" name="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Usuario</ion-label>
+        <ion-input type="text" [(ngModel)]="user" name="user"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Verificar Contraseña</ion-label>
+        <ion-input type="password" [(ngModel)]="password1" name="password1"></ion-input>
+      </ion-item>
+    </ion-card>
+    <ion-button color="light" (click)="UpdateInformation()" expand="block">Actualizar Informacion</ion-button>
+    <br>
+    <div class="centrarlabel">
+      <ion-text routerLink="/temperature">Salir</ion-text>
+    </div>
+    <br>
+  </div>
+</ion-content>

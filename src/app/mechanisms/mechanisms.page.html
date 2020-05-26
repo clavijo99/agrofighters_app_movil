@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary" name="main-content"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>mechanisms</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="font">
+  <br>
+  <br>
+  <div class="card-content">
+    <div>
+      <h3>conexion a internet</h3>
+      <h5>Conectado<span style="color: lime;"> #
+        </span>
+        <-> Desconectado <span style="color: red"> # </span>
+      </h5>
+      <h5><span style="color: lime;">{{Wifion}}</span> <span style="color: red;">{{Wifioff}}</span></h5>
+    </div>
+    <br>
+    <div>
+      <h3>Sensor1</h3>
+      <h5>Encendido <span style="color: lime;">#
+        </span>Apagado <span style="color: red">#</span></h5>
+      <h5><span style="color: lime;">{{Sensor1on}}</span> <span style="color: red;">{{Sensor1off}}</span></h5>
+    </div>
+    <br>
+    <div>
+      <h3>Sensor2</h3>
+      <h5>Normal <span style="color: lime;">#
+        </span>Apagado <span style="color: red">#</span></h5>
+      <h5><span style="color: lime;">{{Sensor2on}}</span> <span style="color: red;">{{Sensor2off}}</span></h5>
+    </div>
+    <br>
+    <div>
+      <h3>Motor1</h3>
+      <h5>Normal <span style="color: lime;">#
+        </span>Error<span style="color: red">#</span></h5>
+      <h5><span style="color: lime;">{{Engginer1on}}</span> <span style="color: red;">{{Engginer1off}}</span></h5>
+    </div>
+    <br>
+    <div>
+      <h3>Motor2</h3>
+      <h5>Normal<span style="color: lime;">#
+        </span>Error<span style="color: red">#</span></h5>
+      <h5><span style="color: lime;">{{Engginer2on}}</span> <span style="color: red;">{{Engginer2off}}</span></h5>
+    </div>
+  </div>
+</ion-content>

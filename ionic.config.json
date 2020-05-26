@@ -1,0 +1,7 @@
+{
+  "name": "AGROFIGHTERS",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+.card {
+ width: 100%;
+ display: block;
+ background-color: #333941;
+ box-shadow: 0 14px 28px rgba(44, 43, 43, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ position: relative;
+ min-height: 450px;
+ border-radius: 5px;
+ margin-bottom: 1rem;
+ border: none;
+ overflow: hidden;
+ color: #0a0a0a;
+}
+.card-content {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background-color: #333941;
+  box-shadow: 0 14px 28px rgba(44, 43, 43, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid rgb(255, 255, 255);
+}
+.card h3,
+.card p {
+ font-family: 'Roboto', sans-serif;
+}
+.card p {
+ font-weight: 300;
+}
+
+
+
+/*
+ border-top: solid 1px #cdcdcd;
+  background: #fff;
+ borde
+ padding: 5px 20px;
+
+
+   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #0a0a2a; 
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;
+
+*/

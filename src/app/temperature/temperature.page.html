@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary" name="main-content"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>temperatura</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="font">
+  <div class="card">
+    <br>
+    <br>
+    <canvas id="realtime1">{{ chartRealtime1 }}</canvas>
+    <br>
+    <div class="card-content">
+      <h3>Temperatura</h3>
+      <h5> Baja <span style="color: lightseagreen"> {{n}} </span>___ Normal <span style="color: lime;"> {{n}}
+        </span>__ Alta <span style="color: red"> {{n}} </span></h5>
+      <h5><span style="color: lightseagreen;">{{t1}}</span> <span style="color: lime;">{{t2}}</span> <span
+          style="color: red;">{{t3}}</span></h5>
+    </div>
+    <br>
+    <div>
+      <canvas id="realtime2">{{ chartRealtime2 }}</canvas>
+    </div>
+    <br>
+    <div class="card-content">
+      <h3>Humedad </h3>
+      <h5> Baja <span style="color: lightseagreen"> {{n}} </span>___ Normal <span style="color: lime;"> {{n}}
+        </span>__ Alta <span style="color: red"> {{n}} </span></h5>
+    </div>
+  </div>
+</ion-content>
